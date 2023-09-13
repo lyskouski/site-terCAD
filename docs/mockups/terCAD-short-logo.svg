@@ -8,7 +8,7 @@
    version="1.1"
    id="svg5"
    inkscape:version="1.1.2 (0a00cf5339, 2022-02-04)"
-   sodipodi:docname="terCAD-logo.svg.2023_09_13_19_14_19.0.svg"
+   sodipodi:docname="terCAD-short-logo.svg"
    inkscape:export-filename="/home/vlyskouski/Pictures/terCAD-logo.svg.2023_09_13_19_14_19.0.png"
    inkscape:export-xdpi="180.70599"
    inkscape:export-ydpi="180.70599"
@@ -28,9 +28,9 @@
      showgrid="false"
      showguides="true"
      inkscape:guide-bbox="true"
-     inkscape:zoom="1.4142136"
-     inkscape:cx="264.45794"
-     inkscape:cy="214.60691"
+     inkscape:zoom="0.7071068"
+     inkscape:cx="392.44425"
+     inkscape:cy="150.61374"
      inkscape:window-width="1920"
      inkscape:window-height="1127"
      inkscape:window-x="0"
@@ -62,10 +62,6 @@
        position="511.84778,436.08867"
        orientation="1,0"
        id="guide1142" />
-    <sodipodi:guide
-       position="82.987667,419.3335"
-       orientation="1,0"
-       id="guide889" />
     <sodipodi:guide
        position="270.38661,389.86202"
        orientation="0,-1"
@@ -114,19 +110,19 @@
        sodipodi:nodetypes="cccccccccccccccc" />
     <path
        style="fill:#000000;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="m 51.263497,409.62878 v -92.61431 l 31.72417,0 v 36.55715 h 31.699983 v 19.5 H 82.987667 v 36.55716 l -31.72417,0"
+       d="m 51.263497,409.62878 v -92.61431 h 31.72417 l 0,19.5 h -19.5 l 0,17.05715 h 51.199983 v 19.5 H 63.487667 l 0,17.05716 19.5,-0.0995 0,19.59948 h -31.72417"
        id="path6293-7"
-       sodipodi:nodetypes="ccccccccc" />
+       sodipodi:nodetypes="ccccccccccccc" />
     <path
        style="fill:#000000;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="m 51.263487,214.57875 31.72418,0 v 63.40001 h 12.16875 v -63.40001 h 19.500003 v 82.90001 l -63.392933,0 v -82.90001"
+       d="m 51.263487,214.57875 h 31.72418 l -4e-6,39.27777 H 63.487667 l 0,24.12224 h 31.66875 v -63.40001 h 19.500003 v 82.90001 H 51.263487 v -82.90001"
        id="path6328-7"
-       sodipodi:nodetypes="ccccccccc" />
+       sodipodi:nodetypes="ccccccccccc" />
     <path
        style="fill:#000000;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="m 51.263497,195.07877 v -92.56226 l 31.66067,0 0.0635,17.07043 12.2,-17.14412 19.500003,0.0737 v 51.11224 H 95.187667 v -17.5534 l -12.2,17.5534 v 21.95002 h 31.700003 v 19.5 l -63.424173,0"
+       d="m 51.263497,195.07877 v -92.56226 h 31.66067 l 0.0635,19.62147 h -19.5 v 32.15393 l 31.69999,-43.84909 19.500003,0.0737 0,45.56226 H 95.156417 l 0,-25.9408 -31.66875,45.4408 h 51.200003 v 19.5 H 51.263497"
        id="path6363-6"
-       sodipodi:nodetypes="cccccccccccccc" />
+       sodipodi:nodetypes="ccccccccccccccc" />
     <path
        style="fill:#000000;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        d="m 82.987667,82.916502 h -31.59999 v -31.6 H 460.80002 l -3e-5,51.199988 -31.60001,10e-6 V 82.916502 Z"
