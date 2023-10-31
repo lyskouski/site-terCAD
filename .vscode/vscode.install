@@ -1,0 +1,3 @@
+code --install-extension avaly.restore-git-branch-tabs-improved
+code --install-extension circlecodesolution.ccs-flutter-color
+code --install-extension eamodio.gitlens

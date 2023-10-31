@@ -1,0 +1,347 @@
+@font-face {
+  font-family:Exo;
+  src:local("Exo"),
+  url(../fonts/exo_2/Exo2-VariableFont_wght.ttf) format("truetype");
+}
+
+html, body {
+  padding: 0 12px 0 0;
+  margin: 0;
+  font-size: 16px;
+  height: 100%;
+  min-height: 100%;
+  color: rgb(59, 48, 48);
+  text-align: justify;
+  font-family: 'Exo', sans-serif;
+}
+
+h1, h2, h3 {
+  padding-top: 24px;
+  color: rgb(59, 48, 48);
+}
+
+object {
+  width: 100%;
+  min-height: 90%;
+  overflow: hidden;
+}
+
+footer:last-of-type {
+  margin-bottom: 240px;
+}
+
+a {
+  color: #104c71;
+  text-decoration: none;
+}
+
+a:hover, a:active {
+  color: #9b6556;
+}
+
+a:active {
+  font-weight: bold;
+}
+
+thead tr th {
+  border-bottom: 1px solid rgba(255,255,255,.4);
+}
+
+tbody th:last-of-type {
+  border-right: 1px solid rgba(255,255,255,.4);
+}
+
+tr:nth-child(even) {
+  background-color: rgba(255,255,255,.1);
+}
+
+th, td {
+  padding: 2px 6px;
+  font-size: 14px;
+  min-width: 120px;
+  vertical-align: top;
+}
+
+td {
+  text-align: right;
+}
+
+.bg-color {
+  background-color: #9b7b7c;
+}
+
+.negative {
+  color: maroon;
+}
+
+.right {
+  text-align: right;
+}
+
+.text-shadow {
+  text-shadow: 1px 1px 0 rgba(255,255,255,.3);
+}
+
+.shadow {
+  box-shadow: -2px -2px 0 2px rgba(0, 0, 0, 0.8), 1.5px 1.5px 0 1px rgba(0, 0, 0, 0.3), -1.5px 1.5px 0 1px rgba(0, 0, 0, 0.3), 1.5px -1.5px 0 1px rgba(0, 0, 0, 0.3);
+}
+
+#content {
+  max-width: 1024px;
+  margin: 0 auto;
+  height: 100%;
+  min-height: 100%;
+}
+
+#main-logo {
+  position: fixed;
+  bottom: 0px;
+  left: 0;
+  z-index: 10;
+  width: 100%;
+  height: 190px;
+  max-height: 190px;
+  min-height: 190px;
+}
+
+#main-logo_data {
+  position: relative;
+  float: left;
+  height: 200px;
+  width: auto;
+  padding-left: 32px;
+  border-top-right-radius: 32px;
+}
+
+#main-logo_header {
+  position: relative;
+  float: left;
+  width: 320px;
+  background-color: rgba(155, 123, 124, 0.9);
+  background-position: top left;
+  background-image: url('../images/logo.png');
+  background-image: url('../images/logo.svg');
+  background-size: auto 115px;
+  background-repeat: no-repeat;
+  padding-top: 140px;
+}
+
+#main-logo_details {
+  position: relative;
+  float: left;
+  height: 185px;
+  min-width: 320px;
+}
+
+#main-logo_details > summary:first-child {
+  margin-top: 140px;
+  cursor: pointer;
+}
+
+#main-logo_details[open] {
+  margin-top: -62px;
+  margin-bottom: -13px;
+  padding: 53px 0 5px 27px;
+  border-bottom-left-radius: 64px;
+  box-shadow: -2px 2px 4px -2px rgba(255, 255, 255, 0.3), inset 3px -3px 4px -2px rgb(0, 0, 0, 0.4);
+  background-color: rgba(155, 123, 124, 0.9);
+}
+
+#main-logo_details[open] > summary:first-child {
+  display: none;
+}
+
+.person {
+  position: relative;
+  float: left;
+  cursor: pointer;
+  margin-top: 18px;
+  margin-left: 12px;
+}
+
+.person summary {
+  position: relative;
+  float: left;
+  width: 128px;
+  height: 128px;
+  border-radius: 50%;
+  overflow: hidden;
+  padding: 0;
+  margin: 0;
+}
+
+.person img {
+  display: block;
+  float: left;
+  width: 128px;
+  height: 128px;
+  border-bottom-left-radius: 25%;
+}
+
+.person summary img {
+  margin-top: -16px;
+}
+
+.person summary footer {
+  position: relative;
+  float: left;
+  width: 132px;
+  margin: -37px 0px 0 13px;
+  padding: 2px 2px 12px;
+  background-color: rgba(64, 255, 255, 0.5);
+  color: black;
+  font-weight: 600;
+  font-size: 12px;
+  font-variant: small-caps;
+  text-align: center;
+  -webkit-transform: rotate(-12deg);
+  -moz-transform: rotate(-12deg);
+  -ms-transform: rotate(-12deg);
+  -o-transform: rotate(-12deg);
+  transform: rotate(-12deg);
+}
+
+.person header {
+  position: relative;
+  display: block;
+  margin: -12px 0 0 -22px;
+  padding: 0 0 9px 2px;
+}
+
+.person div {
+  position: relative;
+  float: left;
+  max-width: 500px;
+  padding: 0 12px;
+  text-align: justify;
+}
+
+.person menu {
+  margin: 2px 0;
+  float: left;
+  padding: 0;
+}
+
+.person span, .button {
+  padding: 2px 4px;
+  border-radius: 4px;
+  margin-right: 6px;
+  font-size: 10px;
+  background: rgba(255, 255, 255, 0.2);
+  box-shadow: -1px -1px 0 rgba(255, 255, 255, 0.4), 1px 1px 0 rgba(0, 0, 0, 0.2);
+}
+
+.button[aria-disabled] {
+  background: rgba(255, 255, 255, 0.1);
+  color: black;
+  box-shadow: 1px 1px 0 rgba(255, 255, 255, 0.2), -1px -1px 0 rgba(0, 0, 0, 0.1);
+  cursor: default;
+}
+
+.person[open] {
+  cursor: default;
+}
+
+.person[open] summary {
+  display: none;
+}
+
+#main-menu {
+  position: fixed;
+  height: 44px;
+  top: 0;
+  left: 0;
+  width: 100%;
+  margin: 0 auto;
+}
+
+#main-menu_list {
+  top: 0;
+  width: 65%;
+  margin: 0 auto;
+  padding: 6px auto 2px;
+  text-align: center;
+  background: linear-gradient(#b0dae6, white);
+  border-radius: 0 0 32px 32px;
+}
+
+#main-menu_list a {
+  padding: 0 12px;
+  font-size: 14px;
+}
+
+#main-lang {
+  margin: 120px auto 128px;
+  max-width: 800px;
+  height: 800px;
+}
+
+#main-lang a {
+  display: block;
+  float: left;
+  padding: 12px 0;
+  height: 24px;
+  width: 200px;
+  text-align: center;
+}
+
+#main-lang a[aria-disabled], #main-lang a[aria-disabled]:hover {
+  color: silver;
+  touch-action: none;
+  cursor: default;
+}
+
+#main-lang a:hover, #main-lang a:active {
+  color: white;
+}
+
+.item {
+  position: relative;
+  min-height: 120px;
+  padding: 12px 0;
+  margin-right: 64px;
+  margin-bottom: 24px;
+  border-bottom-left-radius: 24px;
+  box-shadow: -2px 2px 4px -2px rgba(255, 255, 255, 0.3), inset 3px -3px 4px -2px rgb(0, 0, 0, 0.4);
+}
+
+.item img {
+  position: relative;
+  float: left;
+  width: 320px;
+  padding-left: 8px;
+  padding-right: 24px;
+}
+
+.item h3 {
+  padding: 0;
+  margin: 0;
+}
+
+.item p {
+  padding: 0 12px 12px;
+}
+
+.item nav {
+  float: right;
+}
+
+.item:nth-child(odd) {
+  margin-left: 64px;
+  margin-right: 0;
+  border-bottom-left-radius: 0;
+  border-top-right-radius: 24px;
+  box-shadow: 2px -2px 4px -2px rgba(255, 255, 255, 0.1), inset -3px 3px 4px -2px rgb(0, 0, 0, 0.4);
+}
+
+.item:nth-child(odd) img {
+  float: right;
+  padding-right: 8px;
+  padding-left: 24px;
+}
+
+.item:nth-child(odd) nav {
+  float: left;
+}
+
+
