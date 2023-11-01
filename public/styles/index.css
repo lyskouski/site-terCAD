@@ -23,7 +23,6 @@ h1, h2, h3 {
 .part {
   width: 100%;
   min-height: 90%;
-  z-index: 1;
 }
 
 footer:last-of-type {
