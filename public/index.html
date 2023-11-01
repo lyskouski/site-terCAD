@@ -35,7 +35,40 @@
     <script type="application/ld+json">[]</script>
   </head>
   <body itemscope itemtype="http://schema.org/WebPage" style="background-color: #9b7b7c;">
-    <object id="main-logo" type="text/html" data="./data/logo_en.html"></object>
+  <header id="main-logo">
+    <section id="main-logo_data">
+      <header id="main-logo_header" class="text-shadow">
+        Design the road to your cherished dream
+      </header>
+      <details id="main-logo_details">
+        <summary class="text-shadow">Members</summary>
+        <details class="person">
+          <summary class="shadow">
+            <img src="./images/inperson/vlyskouski.jpg" />
+            <footer>Viachaslau<br /><small>Lyskouski&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</small></footer>
+          </summary>
+          <header>
+            <strong class="text-shadow">Viachaslau Lyskouski</strong>: 
+            <em>Founder</em>
+          </header>
+          <img class="shadow" src="./images/inperson/vlyskouski.jpg" />
+          <div>
+            My goal is to become a true architect, who can design and implement innovative solutions for complex problems. 
+            I have the skills and experience to achieve this, as I have been a full-stack engineer for over 20 years in 
+            various domains. I enjoy writing code, learning new technologies, and delivering high-quality products.
+            <menu>
+              <span>PHP</span>
+              <span>JavaScript</span>
+              <span>C#</span>
+              <span>Python</span>
+              <span>Erlang</span>
+              <span>Dart</span>
+            </menu>
+          </div>
+        </details>
+      </details>
+    </section>
+    </header>
     <header id="main-menu">
       <menu id="main-menu_list" class="box-shadow">
         <a class="text-shadow" href="#home">Home</a>
@@ -75,18 +108,202 @@
         <a aria-disabled="true" title="Turkish" href="">Türkçe</a>
         <a title="Ukrainian" href="https://tercad.com/uk/index.html">Українська мова</a>
       </nav>
-      <object type="text/html" data="./data/flow_en.html"></object>
+
       <a name="history"></a>
-      <object type="text/html" data="./data/finances_en.html"></object>
+      <section class="part">
+        <h2 class="text-shadow">Flow (History)</h2>
+        <section class="item">
+          <img title="Book: From Zero to Market with Flutter" src="./images/items/flutter.png" />
+          <header><h3 class="text-shadow">From Zero to Market with Flutter, November 2023</h3></header>
+          <p>
+            This book is more than a set of instructions; it's an invitation to embark on a collaborative journey through the 
+            thrilling realm of platform-agnostic application development using Flutter. Together, we'll explore every phase of 
+            the application lifecycle, starting from the initial concept to the final distribution, with essential stops at 
+            development, testing, and automation along the way.
+          </p>
+          <nav>
+            <a target="_blank" class="button" href="https://www.amazon.com/dp/B0CLLKNXQR">Kindle</a>
+            <a target="_blank" class="button" href="https://www.amazon.com/Zero-Market-Flutter-Desktop-Distribution/dp/B0CLP5JQJC/">Paperback</a>
+            <a target="_blank" class="button" href="https://www.amazon.com/Zero-Market-Flutter-Desktop-Distribution/dp/B0CLNT8GPC">Hardcover</a>
+            <a target="_blank" class="button" href="https://books.apple.com/us/book/from-zero-to-market-with-flutter/id6470395934">Apple Books (epub)</a>
+            <a target="_blank" class="button" href="https://www.smashwords.com/books/view/1471129">Smashwords (your price!)</a>
+          </nav>
+          <br />
+        </section>
+        <section class="item">
+          <img title="Application: Fingrom" src="./images/items/fingrom.svg" />
+          <header><h3 class="text-shadow">Fingrom, July 2023</h3></header>
+          <p>
+            <a target="_blank" href="https://github.com/lyskouski/app-finance">Open-source</a> cross-platform financial 
+            accounting application without Ads and limitations. The goal of the solution is to create a financial accounting 
+            application that is intuitive, efficient, and inclusive. That empowers users to effortlessly manage their 
+            finances while ensuring that no one is left behind.
+          </p>
+          <nav>
+            <a target="_blank" class="button" href="https://apps.microsoft.com/detail/fingrom/9NNPDJ2ST0HV">Windows</a>
+            <a target="_blank" class="button" href="https://snapcraft.io/fingrom">Linux</a>
+            <a target="_blank" class="button" aria-disabled="true" href="">macOS</a>
+            <a target="_blank" class="button" aria-disabled="true" href="">iOS</a>
+            <a target="_blank" class="button" aria-disabled="true" href="">Google Play</a>
+            <a target="_blank" class="button" href="https://galaxy.store/apFinance">Galaxy Store</a>
+            <a target="_blank" class="button" href="https://appgallery.huawei.com/#/app/C109437079">Huawei Gallery</a>
+            <a target="_blank" class="button" href="/app/finance/index.html">Web</a>
+          </nav>
+          <br />
+        </section>
+      </section>
+
       <a name="finances"></a>
-      <object type="text/html" data="./data/roadmap_en.html"></object>
+      <section class="part">
+        <h2 class="text-shadow">Finances</h2>
+        <table>
+          <thead>
+            <tr>
+              <th>Code</th>
+              <th>Title</th>
+              <th>December'23</th>
+              <th>November'23</th>
+              <th>December'23</th>
+              <th>January'24</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th rowspan="2">62.01.Z<br /><small>Software-related activities</small></th>
+              <th>B2B Contracts</small></th>
+              <td><em>CommerceGate</em></td>
+              <td><em class="negative">no active contracts</em></td>
+              <td><em>-</em></td>
+              <td><em>-</em></td>
+            </tr>
+            <tr>
+              <th>Fingrom<br /><small>financial accounting application</small></th>
+              <td><em class="negative">-205 Euro</em></td>
+              <td><em>pending</em></td>
+              <td><em>-</em></td>
+              <td><em>-</em></td>
+            </tr>
+            <tr>
+              <th>58.11.Z<br /><small>Publishing books</small></th>
+              <th><em>From Zero to Market with Flutter</em></th>
+              <td><em class="negative">-6.14 Euro</em></td>
+              <td><em>pending</em></td>
+              <td><em>-</em></td>
+              <td><em>-</em></td>
+            </tr>
+            <tr>
+              <th class="bg-color" rowspan="3">63.12.Z<br /><small>Operations of Internet portals</small></th>
+              <th>terCAD<br /><small>corporate portal</small></th>
+              <td><em class="negative">-99.25 Euro</em></td>
+              <td><em>pending</em></td>
+              <td><em>-</em></td>
+              <td><em>-</em></td>
+            </tr>
+            <tr>
+              <th>Citadel Liga Info<br /><small>game-services platform</small></th>
+              <td><em>4.5 Euro</em></td>
+              <td><em>pending</em></td>
+              <td><em>-</em></td>
+              <td><em>-</em></td>
+            </tr>
+            <tr>
+              <th>Creativity By<br /><small>oeuvre publishing services</small></th>
+              <td><em>&nbsp;</em></td>
+              <td><em>&nbsp;</em></td>
+              <td><em>&nbsp;</em></td>
+              <td><em>&nbsp;</em></td>
+            </tr>
+            <tr>
+              <th colspan="2" class="right">Summary:</th>
+              <td><em class="negative">-305.89 Euro</em></td>
+              <td><em>pending</em></td>
+              <td><em>-</em></td>
+              <td><em>-</em></td>
+            </tr>
+          </tbody>
+        </table>
+        
+        <p><small><strong>Profitability Goal</strong> (term, "golden parachute"): 1,000,000 Euro</small></p>        
+      </section>
+
       <a name="roadmap"></a>
-      <object type="text/html" data="./data/objectives_en.html"></object>
+      <section class="part">
+        <h2 class="text-shadow">Roadmap</h2>
+        <p>Roadmap can be viewed on Github: 
+          <a target="_blank" href="https://github.com/users/lyskouski/projects/2/views/1">https://github.com/users/lyskouski/projects/2/views/1</a>
+        </p>
+      </section>
+
       <a name="objectives"></a>
-      <object type="text/html" data="./data/collaboration_en.html"></object>
+      <section class="part">
+        <h2 class="text-shadow">Objectives</h2>
+        <section class="item">
+          <img src="./images/items/fingrom.svg" />
+          <header><h3 class="text-shadow">[Q1 2024] Fingrom</h3></header>
+          <strong>OKR:</strong> Establish a strong market presence
+          <ul>
+            <li><strong>KPI 1:</strong> Achieve one million downloads of the application</li>
+            <li><strong>KPI 2:</strong> Maintain an active user base of at least one thousand users</li>
+            <li><strong>KPI 2:</strong> Bring at least two new contributors on board</li>
+          </ul>
+        </section>
+      </section>
+
       <a name="collaboration"></a>
-      <object type="text/html" data="./data/about_en.html"></object>
+      <section class="part">
+        <h2 class="text-shadow">Collaboration</h2>
+        <p>
+        Any made contribution is greatly appreciated (also, by mentioning in Contributors section, Release notes, 
+        and in the "App" [About - Contributors] as a gratitude). However, if it's been chosen a contribution (not just typo 
+        corrections) to any of <a target="_blank" href="https://github.com/lyskouski?tab=repositories">repos</a>, you agree 
+        that you're giving us a non-exclusive license to use that content, as we deem appropriate. You probably guessed that 
+        already, but we do want to be extra clear on that.
+        </p>
+        <p><em>
+        Any work should be rewarded, but until we reach profitability (check the "Finance" tab), we will not be able to 
+        financially support your work.
+        </em></p>
+      </section>
+
       <a name="about"></a>
+      <section class="part">
+        <h2 class="text-shadow">
+          About Us
+          <a class="button" href="./data/privacy_policy_en.html">Privacy Policy</a>
+          <a class="button" href="./data/terms_of_use_en.html">Terms of Use</a>
+        </h2>
+        <p><strong>Date of creation:</strong> 2023-08-29</p>
+        <p><strong>NIP:</strong> 6793274970</p>
+        <p><strong>REGON/KRS:</strong> 526187103</p>
+        <p><strong>VAT-5UE:</strong> PL6793274970</p>
+        <p><strong>D-U-N-S Number:</strong> 989557516</p>
+        <p><strong>Address:</strong> POLAND, 30-554, Kraków, ul. Zamknięta, nr 10, lok. 1.5 (to "Viachaslau Lyskouski")</p>
+        <p><strong>Contact:</strong> <a href="mailto:support@tercad.pl">support@tercad.pl</a></p>
+        <p>
+          <strong>Vision:</strong> 
+          To reinvent "internal writing" (mnemonics) for a breakthrough radical evolution in learning that makes 
+          people's lives conscious for a better future.
+        </p>
+        <p>
+          <strong>Mission:</strong> 
+          To interconnect teaching excellence with cutting-edge technological possibilities,
+          and information global accessibility.
+        </p>
+        <p>
+          <strong>Core Values:</strong> 
+          Transparency, Honesty, Dedication
+        </p>
+        <p>
+          <strong>Moto:</strong>
+          Universal literacy is a necessity
+        </p>
+        <br />
+        <p>
+          <em>Follow Us:&nbsp;</em>
+          <a class="button" target="_blank" href="https://www.linkedin.com/company/tercad/">LinkedIn</a>
+          <a class="button" target="_blank" href="https://www.linkedin.com/company/tercad/">LinkedIn</a>
+        </p>
+      </section>
       <footer></footer>
     </section>
   </body>
