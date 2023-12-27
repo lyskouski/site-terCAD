@@ -311,6 +311,7 @@ td {
   width: 320px;
   padding-left: 8px;
   padding-right: 24px;
+  border-bottom-left-radius: 33px;
 }
 
 .item h3 {
@@ -338,6 +339,8 @@ td {
   float: right;
   padding-right: 8px;
   padding-left: 24px;
+  border-top-right-radius: 33px;
+  border-bottom-left-radius: 0;
 }
 
 .item:nth-child(odd) nav {
