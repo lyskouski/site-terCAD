@@ -1,13 +1,24 @@
 (async function () {
   const host = window.location.hostname.replace(/^www\./, '').toLowerCase();
-  const locale = {
-    'tercad.com': 'en',
-    'tercad.pl': 'pl',
-    'tercad.fr': 'fr',
-    'tercad.de': 'de',
-    'tercad.pt': 'pt',
-    'tercad.by': 'be'
-  }[host] || 'en';
+  const sites = [
+    { domain: 'tercad.com', locale: 'en' },
+    { domain: 'tercad.pl', locale: 'pl' },
+    { domain: 'tercad.fr', locale: 'fr' },
+    { domain: 'tercad.de', locale: 'de' },
+    { domain: 'tercad.pt', locale: 'pt' },
+    { domain: 'tercad.by', locale: 'be' }
+  ];
+  const currentSite = sites.find((site) => site.domain === host) || sites[0];
+  const locale = currentSite.locale;
+  const siteToggle = document.getElementById('site-toggle');
+  const siteToggleLabel = document.getElementById('site-toggle-label');
+
+  siteToggle.value = currentSite.domain;
+  siteToggle.addEventListener('change', () => {
+    const url = `https://${siteToggle.value}${window.location.pathname}${window.location.search}${window.location.hash}`;
+    window.location.assign(url);
+  });
+  siteToggleLabel.textContent = locale === 'be' ? 'Мова' : locale === 'pl' ? 'Język' : locale === 'fr' ? 'Langue' : locale === 'de' ? 'Sprache' : locale === 'pt' ? 'Idioma' : 'Language';
 
   const setHtml = (selector, value) => {
     const element = document.querySelector(selector);

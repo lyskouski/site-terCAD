@@ -37,12 +37,23 @@
         document.documentElement.dataset.theme = savedTheme;
       }
     </script>
-    <script src="./scripts/localize.js" defer></script>
-    <link rel="stylesheet" href="./styles/index.css?_v=20260903-1" media="all" />
+    <script src="./scripts/localize.js?_v=20260903-2" defer></script>
+    <link rel="stylesheet" href="./styles/index.css?_v=20260903-2" media="all" />
     <script type="application/ld+json">[]</script>
   </head>
   <body itemscope itemtype="http://schema.org/WebPage" style="background-color: var(--color-background);">
-    <button id="theme-toggle" type="button" aria-pressed="false"></button>
+    <nav id="top-navigation" aria-label="Site controls">
+      <button id="theme-toggle" type="button" aria-pressed="false"></button>
+      <label id="site-toggle-label" for="site-toggle">Language</label>
+      <select id="site-toggle" aria-label="Language">
+        <option value="tercad.com">English</option>
+        <option value="tercad.pl">Polski</option>
+        <option value="tercad.fr">Français</option>
+        <option value="tercad.de">Deutsch</option>
+        <option value="tercad.pt">Português</option>
+        <option value="tercad.by">Беларуская</option>
+      </select>
+    </nav>
     <section id="content">
       <header id="main-logo">
         <section id="main-logo_data">
