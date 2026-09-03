@@ -168,6 +168,10 @@ td {
   clear: both;
 }
 
+.clear {
+  clear: both;
+}
+
 #main-logo_data {
   position: relative;
   float: left;
