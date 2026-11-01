@@ -420,6 +420,17 @@ a:hover { text-decoration-thickness: 2px; }
 
 .project__card:hover .project__media--cover img { scale: 1.04; }
 
+.project__media--book img {
+  max-width: none;
+  height: 80%;
+  max-height: 12rem;
+  border-radius: 3px 6px 6px 3px;
+  box-shadow: -4px 0 0 -1px oklch(30% .03 330 / .25), 0 14px 28px -10px oklch(20% .06 330 / .45);
+  transition: rotate .4s var(--ease), scale .4s var(--ease);
+}
+
+.project__card:hover .project__media--book img { rotate: -2deg; scale: 1.04; }
+
 .project__body { display: flex; flex-direction: column; gap: .75rem; padding: clamp(1.25rem, 1rem + 1.2vw, 2rem); }
 .project__body h3 { font-size: clamp(1.25rem, 1.1rem + .6vw, 1.5rem); font-weight: 700; }
 .project__body p { color: var(--muted); }
