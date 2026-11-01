@@ -431,6 +431,15 @@ a:hover { text-decoration-thickness: 2px; }
 
 .project__card:hover .project__media--book img { rotate: -2deg; scale: 1.04; }
 
+.project__media--icon img {
+  width: 8rem;
+  border-radius: 22%;
+  box-shadow: 0 14px 28px -10px oklch(20% .06 330 / .45);
+  transition: scale .4s var(--ease);
+}
+
+.project__card:hover .project__media--icon img { scale: 1.06; }
+
 .project__body { display: flex; flex-direction: column; gap: .75rem; padding: clamp(1.25rem, 1rem + 1.2vw, 2rem); }
 .project__body h3 { font-size: clamp(1.25rem, 1.1rem + .6vw, 1.5rem); font-weight: 700; }
 .project__body p { color: var(--muted); }
