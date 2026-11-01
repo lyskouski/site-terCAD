@@ -22,7 +22,6 @@
       ["Zwyka, 2026", "<a target=\"_blank\" href=\"https://github.com/lyskouski/app-tracker\">Open-source</a> cross-platform habits tracker application that is intuitive, efficient, and inclusive, empowering users to effortlessly manage their habits."],
       ["Fantasyland, 2026", "<a target=\"_blank\" href=\"https://github.com/lyskouski/app-game-fantasyland\">Open-source</a> cross-platform unofficial client, powered by Citadel, for Liga of Heroes (Fantasyland)."],
       ["Tlum, 2025", "<a target=\"_blank\" href=\"https://github.com/lyskouski/app-language\">Open-source</a> cross-platform language learning application that uses natural language processing to pinpoint pronunciation gaps and machine learning to boost vocabulary proficiency."],
-      ["Flutter (Dart): 1-Pagers Unleashed, December 2023", "Everything you should know about Flutter framework and Dart language in a few pages."],
       ["From Zero to Market with Flutter, November 2023", "This book is more than a set of instructions; it's an invitation to embark on a collaborative journey through the thrilling realm of platform-agnostic application development using Flutter. Together, we'll explore every phase of the application lifecycle, starting from the initial concept to the final distribution, with essential stops at development, testing, and automation along the way."],
       ["Fingrom, July 2023", "<a target=\"_blank\" href=\"https://github.com/lyskouski/app-finance\">Open-source</a> cross-platform financial accounting application without Ads and limitations. The goal is to create a financial accounting application that is intuitive, efficient, and inclusive, empowering users to manage their finances while ensuring no one is left behind."]
     ],
@@ -37,7 +36,6 @@
     "projects": [
       ["Zwyka, 2026", "<a target=\"_blank\" href=\"https://github.com/lyskouski/app-tracker\">Otwartoźródłowa</a>, wieloplatformowa aplikacja do śledzenia nawyków: intuicyjna, wydajna i inkluzywna, pozwalająca bez wysiłku zarządzać swoimi nawykami."], ["Fantasyland, 2026", "<a target=\"_blank\" href=\"https://github.com/lyskouski/app-game-fantasyland\">Otwarte źródło</a>, wieloplatformowy klient dla Liga of Heroes (Fantasyland), zasilany przez Citadel."], 
       ["Tlum, 2025", "<a target=\"_blank\" href=\"https://github.com/lyskouski/app-language\">Otwartoźródłowa</a>, wieloplatformowa aplikacja do nauki języków, wykorzystująca przetwarzanie języka naturalnego i uczenie maszynowe."], 
-      ["Flutter (Dart): 1-pagery bez tajemnic, grudzień 2023", "Wszystko, co trzeba wiedzieć o frameworku Flutter i języku Dart, w kilku stronach."], 
       ["Od zera do rynku z Flutterem, listopad 2023", "Ta książka to coś więcej niż instrukcja: zaproszenie do wspólnej podróży po świecie tworzenia wieloplatformowych aplikacji we Flutterze, od pomysłu do dystrybucji, przez programowanie, testowanie i automatyzację."], 
       ["Fingrom, lipiec 2023", "<a target=\"_blank\" href=\"https://github.com/lyskouski/app-finance\">Otwartoźródłowa</a>, wieloplatformowa aplikacja księgowa bez reklam i ograniczeń, zaprojektowana tak, aby nikt nie został pominięty."]
     ],
@@ -50,7 +48,6 @@
       ["Zwyka, 2026", "<a target=\"_blank\" href=\"https://github.com/lyskouski/app-tracker\">Open source</a>, application multiplateforme de suivi des habitudes, intuitive, efficace et inclusive, pour gérer ses habitudes sans effort."], 
       ["Fantasyland, 2026", "<a target=\"_blank\" href=\"https://github.com/lyskouski/app-game-fantasyland\">Open source</a>, client multiplateforme non officiel propulsé par Citadel pour Liga of Heroes (Fantasyland)."], 
       ["Tlum, 2025", "<a target=\"_blank\" href=\"https://github.com/lyskouski/app-language\">Open source</a>, application multiplateforme d’apprentissage des langues utilisant le traitement du langage naturel et l’apprentissage automatique."], 
-      ["Flutter (Dart) : 1-pagers déchaînés, décembre 2023", "Tout ce qu’il faut savoir sur Flutter et Dart en quelques pages."], 
       ["De zéro au marché avec Flutter, novembre 2023", "Une invitation à découvrir ensemble le développement d’applications multiplateformes avec Flutter, du concept à la distribution, en passant par le développement, les tests et l’automatisation."], 
       ["Fingrom, juillet 2023", "<a target=\"_blank\" href=\"https://github.com/lyskouski/app-finance\">Open source</a>, application multiplateforme de gestion financière sans publicités ni limitations."]
     ],
@@ -62,7 +59,6 @@
     "projects": [
       ["Zwyka, 2026", "<a target=\"_blank\" href=\"https://github.com/lyskouski/app-tracker\">Open Source</a>-Gewohnheitstracker für mehrere Plattformen: intuitiv, effizient und inklusiv, damit Sie Ihre Gewohnheiten mühelos verwalten können."], ["Fantasyland, 2026", "<a target=\"_blank\" href=\"https://github.com/lyskouski/app-game-fantasyland\">Open Source</a>-inoffizieller, plattformübergreifender Client auf Basis von Citadel für Liga of Heroes (Fantasyland)."], 
       ["Tlum, 2025", "<a target=\"_blank\" href=\"https://github.com/lyskouski/app-language\">Open Source</a>-Sprachlern-App für mehrere Plattformen mit natürlicher Sprachverarbeitung und maschinellem Lernen."], 
-      ["Flutter (Dart): 1-Pager entfesselt, Dezember 2023", "Alles, was Sie über Flutter und Dart wissen sollten, auf wenigen Seiten."], 
       ["Von null zum Markt mit Flutter, November 2023", "Eine gemeinsame Reise durch die plattformunabhängige App-Entwicklung mit Flutter, vom Konzept bis zur Veröffentlichung, einschließlich Entwicklung, Tests und Automatisierung."], 
       ["Fingrom, Juli 2023", "<a target=\"_blank\" href=\"https://github.com/lyskouski/app-finance\">Open Source</a>-Finanzbuchhaltungs-App für mehrere Plattformen, ohne Werbung und Einschränkungen."]
     ],
@@ -75,7 +71,7 @@
       ["Zwyka, 2026", "<a target=\"_blank\" href=\"https://github.com/lyskouski/app-tracker\">Open source</a>, aplicação multiplataforma de acompanhamento de hábitos, intuitiva, eficiente e inclusiva, para gerir os seus hábitos sem esforço."], 
       ["Fantasyland, 2026", "<a target=\"_blank\" href=\"https://github.com/lyskouski/app-game-fantasyland\">Open source</a>, cliente multiplataforma não oficial, desenvolvido com Citadel, para Liga of Heroes (Fantasyland)."],
       ["Tlum, 2025", "<a target=\"_blank\" href=\"https://github.com/lyskouski/app-language\">Open source</a>, aplicação multiplataforma de aprendizagem de línguas que utiliza processamento de linguagem natural e aprendizagem automática."],
-      ["Flutter (Dart): 1-Pagers sem limites, dezembro de 2023", "Tudo o que precisa de saber sobre Flutter e Dart em poucas páginas."], ["Do zero ao mercado com Flutter, novembro de 2023", "Uma viagem conjunta pelo desenvolvimento de aplicações multiplataforma com Flutter, do conceito à distribuição, incluindo desenvolvimento, testes e automatização."], 
+      ["Do zero ao mercado com Flutter, novembro de 2023", "Uma viagem conjunta pelo desenvolvimento de aplicações multiplataforma com Flutter, do conceito à distribuição, incluindo desenvolvimento, testes e automatização."], 
       ["Fingrom, julho de 2023", "<a target=\"_blank\" href=\"https://github.com/lyskouski/app-finance\">Open source</a>, aplicação multiplataforma de contabilidade financeira sem publicidade nem limitações."]
     ],
     "contribution": "Qualquer contribuição é muito apreciada. Ao contribuir para qualquer um dos nossos <a target=\"_blank\" href=\"https://github.com/lyskouski?tab=repositories\">repositórios</a>, aceita conceder-nos uma licença não exclusiva para utilizar esse conteúdo.", "reward": "Todo o trabalho deve ser recompensado, mas até alcançarmos a rentabilidade não poderemos apoiar financeiramente o seu trabalho."
@@ -94,7 +90,6 @@
       ["Zwyka, 2026", "<a target=\"_blank\" href=\"https://github.com/lyskouski/app-tracker\">Адкрыты зыходны код</a>, кросплатформеннае прыкладанне для адсочвання звычак: інтуітыўнае, эфектыўнае і інклюзіўнае, каб без высілкаў кіраваць сваімі звычкамі."], 
       ["Fantasyland, 2026", "<a target=\"_blank\" href=\"https://github.com/lyskouski/app-game-fantasyland\">Адкрыты зыходны код</a>, неафіцыйны кросплатформенны кліент на базе Citadel для Liga of Heroes (Fantasyland)."],
       ["Tlum, 2025", "<a target=\"_blank\" href=\"https://github.com/lyskouski/app-language\">Адкрыты зыходны код</a>, кросплатформеннае прыкладанне для вывучэння моў, якое выкарыстоўвае апрацоўку натуральнай мовы і машыннае навучанне."], 
-      ["Flutter (Dart): 1-Pagers без межаў, снежань 2023", "Усё, што трэба ведаць пра фрэймворк Flutter і мову Dart, на некалькіх старонках."], 
       ["Ад нуля да рынку з Flutter, лістапад 2023", "Гэтая кніга — больш чым набор інструкцый: запрашэнне да сумеснага падарожжа па распрацоўцы кросплатформенных прыкладанняў на Flutter ад ідэі да распаўсюджвання, уключаючы распрацоўку, тэставанне і аўтаматызацыю."], 
       ["Fingrom, ліпень 2023", "<a target=\"_blank\" href=\"https://github.com/lyskouski/app-finance\">Адкрыты зыходны код</a>, кросплатформеннае прыкладанне для фінансавага ўліку без рэкламы і абмежаванняў, інтуітыўнае, эфектыўнае і даступнае." ]
     ],
